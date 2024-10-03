@@ -1,0 +1,132 @@
+# Online Education Website
+
+## Overview
+
+This project is an online education platform designed to make learning accessible and flexible for both students and educators. The platform allows **teachers** to upload, manage, and organize video-based courses, while **students** can engage by liking and commenting on the content. The website is fully responsive and works seamlessly on all devices, making it convenient to access from desktops, tablets, and mobile phones.
+
+[**View Live**](#)  
+(_Soon we will upload_)
+
+## Features
+
+### For Teachers
+
+- **Registration & Login**: Teachers must register and log in to upload content.
+- **Video Management**: Teachers can easily upload, edit, and delete their course videos.
+- **Course Creation**: Teachers can create courses, organizing multiple videos into cohesive learning modules.
+
+### For Students
+
+- **Registration & Login**: Students must register and log in to access courses.
+- **Course Engagement**: Students can like videos and leave comments on each course.
+- **Comment Management**: Students can edit or delete their own comments.
+
+### General Features
+
+- **Responsive Design**: The website adapts to different screen sizes, ensuring an optimal experience on desktops, tablets, and smartphones.
+- **User-Friendly Interface**: Simple and clean design for easy navigation by both teachers and students.
+
+## Technology Stack
+
+### Frontend:
+
+- **HTML5**: Structuring the content.
+- **CSS3**: Styling and layout for responsive design.
+- **JavaScript**: Interactivity and dynamic content management.
+
+### Backend:
+
+- **PHP**: Server-side scripting to handle user registration, login, and video management.
+- **MySQL**: Database for storing user data, videos, comments, and course details.
+
+## Setup Instructions
+
+### Clone the Repository:
+
+```
+git clone https://github.com/Sakshid9/OnlineEducationWebsite.git
+```
+
+### Install Dependencies:
+
+You will need **XAMPP** or **WAMP** for running a local PHP server and MySQL database.
+
+1. **Download and Install XAMPP/WAMP**:
+
+   - XAMPP: [Download Here](https://www.apachefriends.org/index.html)
+   - WAMP: [Download Here](http://www.wampserver.com/en/)
+
+2. **Start Apache and MySQL** using XAMPP or WAMP.
+
+### Database Setup:
+
+1. Open `phpMyAdmin` (usually accessible at `http://localhost/phpmyadmin/`).
+2. Create a new database named `online_education`.
+3. Import the SQL file from the `/database` folder into the new database.
+4. Update the `config.php` file with your database credentials:
+   ```php
+   $host = 'localhost';
+   $db_name = 'online_education';
+   $username = 'root'; // default for XAMPP
+   $password = ''; // default for XAMPP
+   ```
+
+### Running the Project:
+
+- Once everything is set up, open your browser and go to `http://localhost/OnlineEducationWebsite` to view the website.
+
+## Usage
+
+### Teacher Workflow:
+
+1. Register as a teacher and log in.
+2. Upload videos to create new courses.
+3. Edit or delete existing courses as needed.
+
+### Student Workflow:
+
+1. Register as a student and log in.
+2. Browse and watch available courses.
+3. Like videos and leave comments. Edit or delete your comments if necessary.
+
+## Future Enhancements
+
+- **Mobile App**: A mobile app version to improve accessibility and usability on smartphones.
+- **AI-Powered Course Recommendations**: Personalized learning paths based on student progress and preferences.
+- **Live Classes**: Integrating live video streaming for real-time interactions between teachers and students.
+- **Gamification**: Adding badges, leaderboards, and other gamified features to enhance engagement.
+
+## View Live
+
+The live version of this website can be viewed here:
+
+[**View Live**](#)  
+(_Replace this placeholder with the actual live site link_)
+
+## Screenshots
+
+1. **Homepage**  
+   ![Homepage Screenshot](#)  
+   _(Add a screenshot of your homepage here)_
+
+2. **Teacher Dashboard**  
+   ![Teacher Dashboard Screenshot](#)  
+   _(Add a screenshot of the teacher dashboard here)_
+
+3. **Student Course Page**  
+   ![Student Course Page Screenshot](#)  
+   _(Add a screenshot of the student course page here)_
+
+## Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix (`git checkout -b feature-name`).
+3. Commit your changes (`git commit -m "Add feature"`)
+4. Push to your branch (`git push origin feature-name`).
+5. Create a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
