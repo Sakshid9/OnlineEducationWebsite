@@ -1,6 +1,3 @@
-
-
-````
 # Online Education Website
 
 This project is an online education platform designed to make learning accessible and flexible for both students and educators. The platform allows **teachers** to upload, manage, and organize video-based courses, while **students** can engage by liking and commenting on the content.
@@ -47,64 +44,55 @@ This project is an online education platform designed to make learning accessibl
 ### 1. Clone the Repository
 ```bash
 git clone [https://github.com/Sakshid9/OnlineEducationWebsite.git](https://github.com/Sakshid9/OnlineEducationWebsite.git)
-````
 
-### 2\. Install Dependencies
+2. Install Dependencies
+You will need XAMPP or WAMP to run the local PHP server and MySQL database.
 
-You will need **XAMPP** or **WAMP** to run the local PHP server and MySQL database.
+XAMPP: Download Here
 
-  * **XAMPP:** [Download Here](https://www.apachefriends.org/index.html)
-  * **WAMP:** [Download Here](http://www.wampserver.com/en/)
+WAMP: Download Here
 
-### 3\. Database Setup
+3. Database Setup
+Open phpMyAdmin (http://localhost/phpmyadmin/).
 
-1.  Open **phpMyAdmin** (`http://localhost/phpmyadmin/`).
-2.  Create a new database named `online_education`.
-3.  Import the SQL file from the `/database` folder.
-4.  Update `config.php` with your credentials:
-    ```php
-    $host = 'localhost';
-    $db_name = 'online_education';
-    $username = 'root'; 
-    $password = ''; 
-    ```
+Create a new database named online_education.
 
-### 4\. Running the Project
+Import the SQL file from the /database folder.
 
-Navigate to `http://localhost/OnlineEducationWebsite` in your web browser.
+Update config.php with your credentials:
 
------
+$host = 'localhost';
+$db_name = 'online_education';
+$username = 'root'; 
+$password = '';
 
-## 🔮 Future Enhancements
+4. Running the Project
+Navigate to http://localhost/OnlineEducationWebsite in your web browser.
 
-  * **Mobile App**: Dedicated Android/iOS version for better accessibility.
-  * **AI Recommendations**: Personalized learning paths using machine learning.
-  * **Live Classes**: Integration of real-time video streaming.
-  * **Gamification**: Badges and leaderboards to boost student engagement.
+🔮 Future Enhancements
+Mobile App: Dedicated Android/iOS version for better accessibility.
 
------
+AI Recommendations: Personalized learning paths using machine learning.
 
-## 📸 Screenshots
+Live Classes: Integration of real-time video streaming.
 
-### Homepage
+Gamification: Badges and leaderboards to boost student engagement.
 
-### Teacher Dashboard
+📸 Screenshots
+(Add your images here once uploaded to GitHub)
 
------
+Homepage
+Teacher Dashboard
+🤝 Contributing
+Fork the repository.
 
-## 🤝 Contributing
+Create your feature branch (git checkout -b feature/name).
 
-1.  Fork the repository.
-2.  Create your feature branch (`git checkout -b feature/name`).
-3.  Commit your changes (`git commit -m 'Add some feature'`).
-4.  Push to the branch (`git push origin feature/name`).
-5.  Open a **Pull Request**.
+Commit your changes (git commit -m 'Add some feature').
 
------
+Push to the branch (git push origin feature/name).
 
-## 📄 License
+Open a Pull Request.
 
-This project is licensed under the **MIT License**. See the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
-
-```
-```
+📄 License
+This project is licensed under the MIT License. See the LICENSE file for details.
