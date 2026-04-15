@@ -1,44 +1,38 @@
-#Online Education Website
-This project is an online education platform designed to make learning accessible and flexible for both students and educators.
-The platform allows teachers to upload, manage, and organize video-based courses, while students can engage by liking and 
-commenting on the content.
+# Online Education Website
 
-🔗 View Live
-Click Here to View Live
+This project is an online education platform designed to make learning accessible and flexible for both students and educators. The platform allows **teachers** to upload, manage, and organize video-based courses, while **students** can engage by liking and commenting on the content.
 
-(Note: We will be uploading the live version soon)
+---
 
-🚀 Features
-🎓 For Teachers
-Registration & Login: Secure access for educators to manage their profile.
+## 🔗 View Live
+[**Click Here to View Live**](#)  
+*(_Note: We will be uploading the live version soon_)*
 
-Video Management: Easily upload, edit, and delete course videos.
+---
 
-Course Creation: Organize multiple videos into cohesive learning modules.
+## 🚀 Features
 
-📖 For Students
-Registration & Login: Students must register to track progress and access courses.
+### 🎓 For Teachers
+* **Registration & Login**: Secure access for educators to manage their profile.
+* **Video Management**: Easily upload, edit, and delete course videos.
+* **Course Creation**: Organize multiple videos into cohesive learning modules.
 
-Course Engagement: Like videos and leave comments to interact with instructors.
+### 📖 For Students
+* **Registration & Login**: Students must register to track progress and access courses.
+* **Course Engagement**: Like videos and leave comments to interact with instructors.
+* **Comment Management**: Full control to edit or delete personal comments.
 
-Comment Management: Full control to edit or delete personal comments.
+### 📱 General Features
+* **Responsive Design**: Optimized for desktops, tablets, and mobile phones.
+* **User-Friendly Interface**: Clean and simple navigation for a smooth learning experience.
 
-📱 General Features
-Responsive Design: Optimized for desktops, tablets, and mobile phones.
+---
 
-User-Friendly Interface: Clean and simple navigation for a smooth learning experience.
+## 🛠 Technology Stack
 
-🛠 Technology Stack
-Component             Technology
-Frontend         HTML5, CSS3, JavaScript
-BackendPHP       (Server-side scripting)
-Database         MySQL
-Tools            XAMPP / WAMP
-
-⚙️ Setup Instructions
-1. Clone the Repository
-Bash
-git clone https://github.com/Sakshid9/OnlineEducationWebsite.git
-2. Install Dependencies
-You will need XAMPP or WAMP to run the local PHP server and MySQL database.
-
+| Component | Technology |
+| :--- | :--- |
+| **Frontend** | HTML5, CSS3, JavaScript |
+| **Backend** | PHP (Server-side scripting) |
+| **Database** | MySQL |
+| **Tools** | XAMPP / WAMP |
